@@ -1,8 +1,8 @@
-use std::{env, fs};
+use std::env;
 
 use anyhow::Result;
 use clap::Parser;
-use solana_client::{nonblocking::rpc_client::RpcClient, rpc_config::RpcSendTransactionConfig};
+use solana_client::nonblocking::rpc_client::RpcClient;
 use solana_sdk::{
     commitment_config::CommitmentConfig,
     instruction::{AccountMeta, Instruction},
