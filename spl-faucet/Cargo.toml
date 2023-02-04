@@ -10,7 +10,7 @@ anyhow = "1.0.68"
 clap = { version = "4.0.32", features = ["derive"] }
 solana-sdk = "1.14.12"
 spl-token = { version = "3.5.0", features = ["no-entrypoint"] }
-tokio = "1.24.1"
+tokio = "1.24.2"
 spl-token-faucet = { git = "https://github.com/paul-schaaf/spl-token-faucet" }
 solana-client = "1.14.12"
 solana-program = "1.14.12"
